@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(113, 113, 122, 0.2);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(113, 113, 122, 0.4);
+}
+
+/* Animated ripples for flood water zones */
+@keyframes pulse-ripple {
+  0% {
+    fill-opacity: 0.15;
+    stroke-width: 0.5px;
+  }
+  50% {
+    fill-opacity: 0.25;
+    stroke-width: 1.5px;
+  }
+  100% {
+    fill-opacity: 0.15;
+    stroke-width: 0.5px;
+  }
+}
+
+.animate-ripple {
+  animation: pulse-ripple 3s infinite ease-in-out;
+}
+
+/* Pulse keyframes for warnings */
+@keyframes warning-pulse {
+  0%, 100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.animate-warning {
+  animation: warning-pulse 1.5s infinite ease-in-out;
+}
+
+/* Glow effects */
+.glow-blue {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+}
+
+/* Forced dark background overrides for SentinelAI */
+html, body {
+  background-color: #0F172A !important;
+  color: #F8FAFC !important;
+}
+
+.glass-card {
+  background: rgba(30, 41, 59, 0.85);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+@keyframes scanLine {
+  0% { top: 0%; }
+  50% { top: 100%; }
+  100% { top: 0%; }
+}
