@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Manikantagoud6939.github.io/Disaster-Response-For-A-Safer-Tomorrow/sitemap.xml
