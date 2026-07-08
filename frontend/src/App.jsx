@@ -20,14 +20,14 @@ import Analytics from './components/Analytics';
 // Multi-language Translation Database
 const TRANSLATIONS = {
   en: {
-    portalTitle: "SentinelAI Command",
+    portalTitle: "Sentinel Command",
     citizenNode: "Telangana Safe Citizen Node",
     sirenAlert: "SIREN_ALERT",
     sirenSos: "🔊 SIREN SOS",
     stopSiren: "⏹️ STOP SIREN",
     exploreDashboard: "Explore Dashboard",
     watchVideo: "Watch Video",
-    loginHeader: "SentinelAI Node",
+    loginHeader: "Sentinel Node",
     loginSub: "Choose your network access node to authorize connection.",
     citizenSosTab: "📢 Citizen SOS",
     responderTab: "👮 Responder",
@@ -155,14 +155,14 @@ const TRANSLATIONS = {
     humidityLabel: "आर्द्रता",
   },
   es: {
-    portalTitle: "Comando SentinelAI",
+    portalTitle: "Comando Sentinel",
     citizenNode: "Nodo Ciudadano Seguro de Telangana",
     sirenAlert: "ALERTA_SIRENA",
     sirenSos: "🔊 SIRENA SOS",
     stopSiren: "⏹️ DETENER SIRENA",
     exploreDashboard: "Explorar Tablero",
     watchVideo: "Ver Video",
-    loginHeader: "Nodo SentinelAI",
+    loginHeader: "Nodo Sentinel",
     loginSub: "Elija su nodo de acceso a la red para autorizar la conexión.",
     citizenSosTab: "📢 SOS Ciudadano",
     responderTab: "👮 Respondedor",
@@ -978,7 +978,7 @@ export default function App() {
               <SentinelLogo size={36} showText={false} className="shrink-0" />
               <div>
                 <span className="font-extrabold tracking-wider text-sm font-sans uppercase bg-gradient-to-r from-red-400 to-red-200 bg-clip-text text-transparent">
-                  SentinelAI
+                  Sentinel
                 </span>
                 <div className="text-[9px] font-bold text-[#10B981] tracking-widest font-mono uppercase mt-0.5">CITIZEN PORTAL</div>
               </div>
@@ -1359,7 +1359,7 @@ export default function App() {
                 </div>
                 
                 <p className="text-[10px] text-zinc-500 leading-normal">
-                  Toggle checklist items as you pack them. SentinelAI verifies evacuation readiness to ensure regulatory safety guidelines.
+                  Toggle checklist items as you pack them. Sentinel verifies evacuation readiness to ensure regulatory safety guidelines.
                 </p>
 
                 <div className="space-y-2.5 pt-1 text-xs">
@@ -1481,7 +1481,7 @@ export default function App() {
             <SentinelLogo size={36} showText={false} className="shrink-0" />
             <div>
               <span className="font-extrabold tracking-wider text-sm font-sans uppercase bg-gradient-to-r from-blue-400 to-blue-200 bg-clip-text text-transparent">
-                SentinelAI
+                Sentinel
               </span>
               <div className="text-[9px] font-bold text-[#10B981] tracking-widest font-mono uppercase mt-0.5">COMMAND NODE</div>
             </div>
@@ -2386,7 +2386,7 @@ export default function App() {
             <div className="space-y-6">
               <div className="bg-[#1E293B] border border-zinc-850 p-6 rounded-xl space-y-6 max-w-2xl">
                 <div className="space-y-1.5 border-b border-zinc-800 pb-3">
-                  <h3 className="text-sm font-extrabold text-zinc-100 uppercase tracking-wider">SentinelAI System Settings</h3>
+                  <h3 className="text-sm font-extrabold text-zinc-100 uppercase tracking-wider">Sentinel System Settings</h3>
                   <p className="text-xs text-zinc-400">Configure real-time telemetry, Doppler radar parameters, and system thresholds.</p>
                 </div>
 

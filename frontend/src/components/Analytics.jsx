@@ -7,7 +7,7 @@ export default function Analytics({ sectors, savedCount, reports }) {
   const resolvedPct = Math.round((savedCount / totalIncidents) * 100) || 82;
 
   const handleExportReport = () => {
-    alert("SentinelAI: Incident Operations post-mortem audit report successfully compiled and saved to local Capacitor disk targets (SHA-255 certified)!");
+    alert("Sentinel: Incident Operations post-mortem audit report successfully compiled and saved to local Capacitor disk targets (SHA-255 certified)!");
   };
 
   // Static sector risk indexes based on elevation profiles
@@ -181,7 +181,7 @@ export default function Analytics({ sectors, savedCount, reports }) {
           <div className="border-t border-zinc-900 pt-3 space-y-2">
             <h4 className="text-zinc-200 font-bold uppercase">&lt;Executive Summary&gt;</h4>
             <p>
-              Precipitation rates peaked at cloudburst thresholds, causing high stress along low-lying divisions. SentinelAI successfully paired emergency dispatches using the route optimizer, bypassing active road blocks.
+              Precipitation rates peaked at cloudburst thresholds, causing high stress along low-lying divisions. Sentinel successfully paired emergency dispatches using the route optimizer, bypassing active road blocks.
             </p>
           </div>
 
